@@ -62,4 +62,3 @@ The reference for the paper is the following:
   publisher={Nature Publishing Group}
 }
 ```
-
