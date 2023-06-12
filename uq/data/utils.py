@@ -4,7 +4,7 @@ import torch
 from ase import Atoms, units
 from pymatgen.core import Structure
 
-from evi.utils.graphop import split_and_sum
+from uq.utils.graphop import split_and_sum
 
 
 DEFAULT_CUTOFF = 5.0
