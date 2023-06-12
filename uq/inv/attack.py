@@ -12,9 +12,9 @@ from torch.utils.data import DataLoader
 from torch.cuda.amp import GradScaler, autocast
 from sklearn.mixture import GaussianMixture
 
-from evi.data import Dataset, concatenate_dict, collate_dicts, wrap_cell, AtomsBatch, densify_tensor
-from evi.models import SchNet, PaiNN, Ensemble
-from evi.utils import make_dir, batch_to, batch_detach
+from uq.data import Dataset, concatenate_dict, collate_dicts, wrap_cell, AtomsBatch, densify_tensor
+from uq.models import SchNet, PaiNN, Ensemble
+from uq.utils import make_dir, batch_to, batch_detach
 from adv import AdvEvidential, AdvMVE, AdvEnsemble, AdvGMM
 
 
