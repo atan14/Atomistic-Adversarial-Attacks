@@ -6,14 +6,14 @@ import pickle5 as pickle
 from torch.optim import Adam
 from torch.utils.data import DataLoader
 
-sys.path.append("/home/atan14/projects/evidential/evi/train")
+sys.path.append("/home/atan14/projects/UQ_singleNN/uq/train")
 import hooks
 from trainer import Trainer
 from metrics import MeanAbsoluteError
 from loss import MaeLoss, MseLoss, NllLoss, EvidentialLoss, CombinedLoss
-from evi.utils.output import get_outdir, make_dir
-from evi.models import SchNet, Ensemble, PaiNN
-from evi.data import Dataset, concatenate_dict, split_train_test, split_train_validation_test, collate_dicts
+from uq.utils.output import get_outdir, make_dir
+from uq.models import SchNet, Ensemble, PaiNN
+from uq.data import Dataset, concatenate_dict, split_train_test, split_train_validation_test, collate_dicts
 
 
 MODEL_DICT = {
