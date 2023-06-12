@@ -2,8 +2,8 @@ import copy
 import torch
 from tqdm import tqdm
 
-from evi.utils.cuda import batch_to, batch_detach
-from evi.data import concatenate_dict
+from uq.utils.cuda import batch_to, batch_detach
+from uq.data import concatenate_dict
 
 
 def shrink_batch(batch):
