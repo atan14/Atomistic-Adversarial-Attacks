@@ -4,7 +4,7 @@ from torch.nn.init import xavier_uniform_, constant_
 from functools import partial
 
 from .construct import layer_types
-from evi.utils.graphop import scatter_add
+from uq.utils.graphop import scatter_add
 
 
 DEFAULT_DROPOUT_RATE = 0.0
