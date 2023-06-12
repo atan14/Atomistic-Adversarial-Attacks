@@ -1,5 +1,5 @@
 import torch
-from evi.data import Dataset
+from uq.data import Dataset
 
 
 class AdvLoss:
