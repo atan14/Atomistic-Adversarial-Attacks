@@ -9,10 +9,10 @@ import torch
 import copy
 import pickle
 
-from evi.utils.cuda import batch_to, batch_detach
-from evi.train.evaluate import evaluate
-from evi.utils.parallel import update_optim
-from evi.train.hooks import ReduceLROnPlateauHook
+from uq.utils.cuda import batch_to, batch_detach
+from uq.train.evaluate import evaluate
+from uq.utils.parallel import update_optim
+from uq.train.hooks import ReduceLROnPlateauHook
 
 MAX_EPOCHS = 100
 PAR_INFO_FILE = "info.json"
