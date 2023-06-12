@@ -7,7 +7,7 @@ from torch.nn.functional import softmax
 from .layers import MessagePassingModule, GaussianSmearing, Dense
 from .activations import ShiftedSoftplus
 from .construct import construct_module_dict, layer_types
-from evi.utils import scatter_add, compute_grad, make_directed
+from uq.utils import scatter_add, compute_grad, make_directed
 
 
 EPSILON = 1e-15
