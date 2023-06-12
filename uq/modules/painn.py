@@ -4,7 +4,7 @@ import numpy as np
 
 from .layers import Dense, ScaleShift
 from .construct import layer_types
-from evi.utils.graphop import scatter_add
+from uq.utils.graphop import scatter_add
 
 
 def norm(vec, eps=1e-15):
