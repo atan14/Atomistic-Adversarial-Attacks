@@ -1,7 +1,7 @@
 from torch import nn
-from evi.utils.graphop import scatter_add
-from evi.modules.painn import MessageBlock, UpdateBlock, EmbeddingBlock, ReadoutBlock
-from evi.modules.schnet import (
+from uq.utils.graphop import scatter_add
+from uq.modules.painn import MessageBlock, UpdateBlock, EmbeddingBlock, ReadoutBlock
+from uq.modules.schnet import (
     AttentionPool,
     SumPool,
     MolFpPool,
