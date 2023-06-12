@@ -1,5 +1,5 @@
 from torch import nn
-from evi.modules import (
+from uq.modules import (
     SchNetConv,
     NodeMultiTaskReadOut,
     get_default_readout,
