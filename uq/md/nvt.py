@@ -6,8 +6,8 @@ import torch
 import argparse
 import numpy as np
 
-from evi.data import Dataset, AtomsBatch
-from evi.utils import make_dir, write_params
+from uq.data import Dataset, AtomsBatch
+from uq.utils import make_dir, write_params
 
 from ase.md.verlet import VelocityVerlet
 
